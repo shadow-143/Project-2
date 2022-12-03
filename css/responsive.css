@@ -1,0 +1,65 @@
+@media screen and (max-width: 500px) {
+  #title {
+    text-align: center;
+    line-height: 0.5;
+  }
+
+  .title-image {
+    transform: rotate(0);
+    position: static;
+    height: 425px;
+    width: 225px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  .container-fluid {
+    padding: 6%;
+  }
+  .navbar {
+    padding-bottom: 1.5rem;
+  }
+  .nav-item{
+    padding: 10px 0;
+  }
+  .nav-link{
+    font-size: 1.2rem;
+    
+  }
+  h2 {
+    font-size: 1.7rem;
+  }
+  .press-logo {
+    margin: 3%;
+    width: 25%;
+  }
+  #pricing {
+    padding: 3% 12%;
+  }
+  #cta{
+    padding: 4% 7%;
+  }
+  .cta-heading {
+    font-size: 2rem;
+    /* line-height:2; */
+  }
+  #footer{
+    padding:5% 19%
+  }
+  .social-icon{
+    margin: 18px 12px;
+  }
+}
+@media screen and (max-width: 1028px) {
+  #title {
+    text-align: center;
+    line-height: 0.5;
+  }
+
+  .title-image {
+    transform: rotate(0);
+    position: static;
+    height: 450px;
+    width: 225px;
+  }
+}
